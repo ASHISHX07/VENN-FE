@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Home = () => {
-  return (
-    <div className='items-center justify-center text-white text-4xl relative'>Home Page to be made</div>
-  )
-}
+	return (
+		<div className="flex w-[98%] min-h-[30px] h-auto my-3 items-center border border-gray-600 rounded-sm">
+      <div className="">
 
-export default Home
+      </div>
+    </div>
+	);
+};
+
+export default Home;
