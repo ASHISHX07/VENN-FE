@@ -1,28 +1,36 @@
 import React from "react";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/TradeTactix-w.png";
 import accIcon from "../../assets/account_icon.png"
 import { useState } from "react";
 import { useNavigate } from "react-router";
-import { NavLink } from "react-router";
+import { NavLink, Link } from "react-router";
 
 export const Navbar = () => {
     
     const navigate = useNavigate();
-    const [open, setIsOpen] = useState(false);
+    const [theme, setTheme] = useState();
 
 	return (
 		<nav className="relative min-w-full h-12 items-center flex flex-col">
             <div className="relative min-w-full items-center flex h-full">
                 <div className="text-white w-[20%] h-full items-center flex">
-                    <NavLink className={"cursor-default"}>
-                        <img src={logo} alt="Logo" className="h-auto w-6 mx-2 md:w-8 md:mx-3 cursor-pointer" />
-                    </NavLink>
+                    <Link className={"cursor-default"}>
+                        <img src={logo} alt="Logo" className="h-auto w-8 mx-2 md:w-8 md:mx-3 cursor-pointer" />
+                    </Link>
                 </div>
                 <div className="hidden md:flex text-white w-[80%] h-full items-center justify-evenly text-[15px]">
-                    <NavLink to={'/'}>Dashboard</NavLink>
-                    <NavLink to={'/strategies'}>Strategies</NavLink>
-                    <NavLink to={'/backtest'}>Backtest</NavLink>
-                    <NavLink to={'/positions'}>Positions</NavLink>
+                    <div className="anchor w-auto h-auto flex box-border px-3 py-1 rounded">
+                        <NavLink to={'/'}>Dashboard</NavLink>
+                    </div>
+                    <div className="anchor w-auto h-auto flex box-border px-3 py-1 rounded">
+                        <NavLink to={'/strategies'}>Strategies</NavLink>
+                    </div>
+                    <div className="anchor w-auto h-auto flex box-border px-3 py-1 rounded">
+                        <NavLink to={'/backtest'}>Backtest</NavLink>
+                    </div>
+                    <div className="anchor w-auto h-auto flex box-border px-3 py-1 rounded">
+                        <NavLink to={'/positions'}>Positions</NavLink>
+                    </div>
                 </div>
                 <div className="hidden md:flex text-white w-[20%] h-full items-center justify-end">
                     <img src={accIcon} alt="account_icon" className="hidden md:flex cursor-pointer w-8 mx-3"/>
