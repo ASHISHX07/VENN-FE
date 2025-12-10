@@ -1,13 +1,15 @@
 import React from "react";
+import InfoLayout from "../components/InfoLayout";
 
 const Home = () => {
-	return (
-		<div className="flex w-[98%] min-h-[30px] h-auto my-3 items-center border border-gray-600 rounded-sm">
-      <div className="">
 
-      </div>
-    </div>
-	);
+  let accBalance = 4000
+  let vBal = 14280
+  let tripTime = null;
+
+  return (
+    <InfoLayout />
+  );
 };
 
 export default Home;

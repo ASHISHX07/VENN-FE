@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #1e1e1e;
+    background: #ffffff;
 }
 
 body::-webkit-scrollbar {
@@ -12,6 +12,4 @@ body::-webkit-scrollbar {
 
 .anchor:has(.active) {
     background-color: #353535;
-    color: rgb(171, 255, 45);
-    border: 1px solid gray;
 }
