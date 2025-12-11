@@ -6,6 +6,7 @@ import Strategies from './pages/Strategies'
 import Backtest from './pages/Backtest';
 import Positions from './pages/Positions';
 import About from './pages/About';
+import Account from './pages/Account'
 
 const App = () => {
 
@@ -17,11 +18,14 @@ const App = () => {
                 <Route path='backtest' element={<Backtest />} />
                 <Route path='positions' element={<Positions />} />
                 <Route path='about' element={<About />} />
+                <Route path='account' element={<Account />} />
             </Route>
         )
     );
 
-  return <RouterProvider router={router} />;
+    return (
+        <RouterProvider router={router} />
+    );
 };
 
 export default App;

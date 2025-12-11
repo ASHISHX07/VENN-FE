@@ -1,15 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    background: #ffffff;
 }
 
 body::-webkit-scrollbar {
     display: none;
 }
 
+.anchor {
+    @apply transition-colors duration-200;
+    color: #252c36; /* Gray-700 (Default Light Mode Text) */
+}
+
+[data-theme="dark"] .anchor {
+    color: #c9ced7; /* Gray-400 (Default Dark Mode Text) */
+}
+
 .anchor:has(.active) {
-    background-color: #353535;
+    background-color: #d2d2d2; /* Light Gray Background */
+    color: #000000;            /* Force Black Text */
+    opacity: 1;
+    transition-duration: 300ms;
+}
+
+[data-theme="dark"] .anchor:has(.active) {
+    background-color: #353535; /* Dark Gray Background */
+    color: #ffffff;
+    opacity: 1;
+    transition-duration: 300ms;
+}
+
+.card-title {
+    clip-path: path();
 }
