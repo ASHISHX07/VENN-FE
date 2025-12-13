@@ -7,15 +7,15 @@ import ThemeToggle from "./ThemeToggle";
 export const Navbar = () => {
 
 	return (
-		<nav className="min-w-full h-10 mb-2 items-center flex flex-col sticky z-50 
-        backdrop-blur-md bg-black/8 dark:bg-black/60 transition-all duration-300">
+		<nav className="min-w-full h-10 mb-1 items-center flex flex-col sticky top-0 z-50 
+        backdrop-blur-md bg-[rgba(0,0,0,0.1)] dark:bg-[rgba(255,255,255,0.1)] transition-all duration-300">
             <div className="relative min-w-full items-center flex h-full justify-between">
                 <div className="w-[20%] h-full items-center flex text-gray-900 dark:text-gray-100">
                     <Link className="cursor-default">
-                        <img src={logo} alt="Logo" className="h-auto w-5 mx-2 md:w-8 md:mx-3 cursor-pointer" />
+                        <img src={logo} alt="Logo" className="h-auto w-5 mx-2 lg:w-8 md:mx-3 cursor-pointer" />
                     </Link>
                 </div>
-                <div className="hidden md:flex w-[80%] h-full items-center justify-evenly text-[15px] text-gray-900 dark:text-gray-100 transition-colors duration-300">
+                <div className="hidden lg:flex w-[80%] h-full items-center justify-evenly text-[15px] text-gray-900 dark:text-gray-100 transition-colors duration-300">
                     <div className="anchor w-auto h-auto flex box-border px-3 py-0.5 rounded transition-colors text-gray-900 dark:text-gray-100} ">
                         <NavLink to={'/'}>Dashboard</NavLink>
                     </div>
@@ -35,7 +35,7 @@ export const Navbar = () => {
                 <div className="flex w-[20%] h-full items-center justify-end text-gray-900 dark:text-gray-100">
                     <ThemeToggle />
                     <NavLink to={'/account'}>
-                        <img src={accIcon} alt="account_icon" className="flex cursor-pointer w-5 mx-2 md:w-8 md:mx-3"/>
+                        <img src={accIcon} alt="account_icon" className="flex cursor-pointer w-5 mx-2 lg:w-8 lg:mx-3"/>
                     </NavLink>
                 </div>
             </div>

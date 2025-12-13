@@ -3,10 +3,6 @@
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -36,8 +32,4 @@ body::-webkit-scrollbar {
     color: #ffffff;
     opacity: 1;
     transition-duration: 300ms;
-}
-
-.card-title {
-    clip-path: path();
 }
