@@ -8,7 +8,7 @@ const Home = () => {
   let tripTime = null;
 
   return (
-    <div className="flex w-[99%] h-[98%]">
+    <div className="flex relative w-full h-full">
       <InfoLayout />
     </div>
   );

@@ -121,18 +121,3 @@ function ThemeToggle() {
 }
 
 export default ThemeToggle;
-
-
-
-
-
-
-// const ThemeToggle = () => {
-//     // read/write to local storage
-
-
-
-//     const isDark = theme === 'dark';
-
-//     
-// };
