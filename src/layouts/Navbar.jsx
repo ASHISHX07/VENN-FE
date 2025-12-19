@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../../assets/TradeTactix-w.png";
-import accIcon from "../../assets/account_icon.png"
+import logo from "../assets/TradeTactix-w.png";
+import accIcon from "../assets/account_icon.png"
 import { NavLink, Link } from "react-router";
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from "../components/ThemeToggle";
 
 export const Navbar = () => {
 
@@ -35,11 +35,11 @@ export const Navbar = () => {
                 <div className="flex w-[20%] h-full items-center justify-end text-gray-900 dark:text-gray-100">
                     <ThemeToggle />
                     <NavLink to={'/account'}>
-                        <img src={accIcon} alt="account_icon" className="flex cursor-pointer w-5 mx-2 lg:w-8 lg:mx-3"/>
+                        <img src={accIcon} alt="account_icon" className="flex cursor-pointer w-7 mx-3 max-lg:hidden"/>
                     </NavLink>
                 </div>
             </div>
-            <div className="h-0.5 w-full bg-linear-to-r from-transparent via-emerald-400 to-transparent"></div>
+            {/* <div className="h-0.5 w-full bg-linear-to-r from-transparent via-emerald-400 to-transparent"></div> */}
 		</nav>
 	);
 };

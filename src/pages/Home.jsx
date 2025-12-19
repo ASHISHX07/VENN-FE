@@ -1,5 +1,5 @@
 import React from "react";
-import InfoLayout from "../components/InfoLayout";
+import InfoLayout from "../layouts/InfoLayout";
 
 const Home = () => {
 

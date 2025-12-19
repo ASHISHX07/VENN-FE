@@ -39,14 +39,14 @@ function ThemeToggle() {
             />
 
             <svg
-                width="24"
-                height="24"
+                width="22"
+                height="22"
                 viewBox="0 0 20 20"
                 fill="currentColor"
                 stroke="none"
                 // THE ANIMATION LOGIC:
                 // Rotate 40deg (Dark) -> 90deg (Light)
-                className={`transition-transform duration-500 ease-[cubic-bezier(0.41,0.64,0.32,1.575)] ${
+                className={`transition-transform duration-500 ease-[cubic-bezier(0.41,0.64,0.32,1.575)] mx-2 max-lg:hidden ${
                 !isDarkMode ? 'rotate-90' : 'rotate-40'
                 }`}
             >
