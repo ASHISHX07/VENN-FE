@@ -2,9 +2,38 @@ import React from "react";
 
 function InfoLayout() {
 	return (
-		<div className="w-full h-10 bg-amber-50 flex">
-			<div className="">
+		<div className="@container w-full h-auto grid max-sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+			<div className="flex relative justify-center items-center-safe p-2 max-w-full w-auto h-auto box-border">
+				<div className="relative flex-col box-border p-1 px-1.5 w-full h-50 justify-center items-center bg-linear-to-tl from-transparent via-gray-100 to-emerald-100 dark:via-gray-900 dark:to-emerald-900 shadow-emerald-100 shadow-lg/10 rounded-lg transition-colors duration-300">
+					<div className="relative align-top text-gray-600 dark:text-gray-400 text-shadow-gray-400/80 dark:text-shadow-gray-900/80 text-shadow-md max-sm:text-sm md:text-lg lg:text-xl transition-all duration-300">Funds</div>
+					<div className="grid grid-cols-2 w-full h-fit">
 
+					</div>
+				</div>
+			</div>
+			<div className="flex relative justify-center items-center-safe p-2 max-w-full w-auto h-auto box-border">
+				<div className="relative flex-col box-border p-1 px-1.5 w-full h-50 justify-center items-center bg-linear-to-tl from-transparent via-gray-100 to-emerald-100 dark:via-gray-900 dark:to-emerald-900 shadow-emerald-100 shadow-lg/10 rounded-lg transition-colors duration-300">
+					<div className="relative align-top text-gray-600 dark:text-gray-400 text-shadow-gray-400/80 dark:text-shadow-gray-900/80 text-shadow-md max-sm:text-sm md:text-lg lg:text-xl transition-all duration-300">Trades</div>
+					<div className="grid grid-cols-2 w-full h-fit">
+
+					</div>
+				</div>
+			</div>
+			<div className="flex relative justify-center items-center-safe p-2 max-w-full w-auto h-auto box-border">
+				<div className="relative flex-col box-border p-1 px-1.5 w-full h-50 justify-center items-center bg-linear-to-tl from-transparent via-gray-100 to-emerald-100 dark:via-gray-900 dark:to-emerald-900 shadow-emerald-100 shadow-lg/10 rounded-lg transition-colors duration-300">
+					<div className="relative align-top text-gray-600 dark:text-gray-400 text-shadow-gray-400/80 dark:text-shadow-gray-900/80 text-shadow-md max-sm:text-sm md:text-lg lg:text-xl transition-all duration-300">Status</div>
+					<div className="grid grid-cols-2 w-full h-fit">
+
+					</div>
+				</div>
+			</div>
+			<div className="flex relative justify-center items-center-safe p-2 max-w-full w-auto h-auto box-border">
+				<div className="relative flex-col box-border p-1 px-1.5 w-full h-50 justify-center items-center bg-linear-to-tl from-transparent via-gray-100 to-emerald-100 dark:via-gray-900 dark:to-emerald-900 shadow-emerald-100 shadow-lg/10 rounded-lg transition-colors duration-300">
+					<div className="relative align-top text-gray-600 dark:text-gray-400 text-shadow-gray-400/80 dark:text-shadow-gray-900/80 text-shadow-md max-sm:text-sm md:text-lg lg:text-xl transition-all duration-300">Performance</div>
+					<div className="grid grid-cols-2 w-full h-fit">
+
+					</div>
+				</div>
 			</div>
 		</div>
 	);

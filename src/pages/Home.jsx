@@ -1,14 +1,12 @@
 import React from "react";
 import InfoLayout from "../layouts/InfoLayout";
+import StrategiesSideBar from "../components/StrategiesSideBar";
 
 const Home = () => {
 
-  let accBalance = 4000
-  let vBal = 14280
-  let tripTime = null;
-
   return (
-    <div className="flex relative w-full h-full">
+    <div className="flex relative w-full min-h-full h-auto">
+      <StrategiesSideBar />
       <InfoLayout />
     </div>
   );
