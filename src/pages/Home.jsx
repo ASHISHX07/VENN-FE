@@ -9,7 +9,7 @@ const Home = () => {
       <div className="sm:w-full md:w-[30%] h-full max-sm:relative md:fixed">
         <StrategiesSideBar />
       </div>
-      <div className="sm:w-full md:w-[30%] h-full max-sm:hidden"></div>
+      <div className="sm:w-full md:w-[30%] h-full max-sm:hidden md:relative"></div>
       <div className="sm:w-full md:w-[70%] h-full flex">
         <InfoLayout />
       </div>

@@ -47,7 +47,7 @@ export const Navbar = () => {
 					</NavLink>
 				</div>
 			</div>
-			<div className="h-0.5 w-full bg-linear-to-r from-transparent via-emerald-400 to-transparent"></div>
+			<div className="h-0.5 w-full bg-linear-to-r from-transparent via-emerald-400 to-transparent max-md:hidden"></div>
 		</nav>
 	);
 };
