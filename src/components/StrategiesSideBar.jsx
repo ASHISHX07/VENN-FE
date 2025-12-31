@@ -2,8 +2,12 @@ import React from 'react'
 
 const StrategiesSideBar = () => {
   return (
-    <div className='w-140 h-140 bg-amber-50'>
+    <div className='w-full h-[calc(100vh-3rem)] p-2 box-border'>
+      <div className='w-full h-full backdrop-blur-md bg-[rgba(0,0,0,0.1)] dark:bg-[rgba(255,255,255,0.1)] transition-all duration-300 rounded-lg'>
+        <div className=''>
 
+        </div>
+      </div>
     </div>
   )
 }

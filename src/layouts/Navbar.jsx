@@ -1,15 +1,13 @@
-import React from "react";
 import logo from "../assets/TradeTactix-w.png";
 import accIcon from "../assets/account_icon.png";
 import { NavLink, Link } from "react-router";
 import ThemeToggle from "../components/ThemeToggle";
-import { useState } from "react";
 
 export const Navbar = () => {
 	return (
 		<nav
-			className="min-w-full h-10 mb-2 items-center flex flex-col sticky top-0 z-50
-			backdrop-blur-md bg-[rgba(0,0,0,0.1)] dark:bg-[rgba(255,255,255,0.1)] transition-all duration-300"
+			className="min-w-full h-10 mb-1 items-center flex flex-col sticky top-0 z-50
+			backdrop-blur-lg bg-[rgba(0,0,0,0.1)] dark:bg-[rgba(255,255,255,0.1)] transition-all duration-300"
 		>
 			<div className="relative min-w-full items-center flex h-full justify-between">
 				<div className="w-[20%] h-full items-center flex text-gray-900 dark:text-gray-100">
@@ -49,7 +47,7 @@ export const Navbar = () => {
 					</NavLink>
 				</div>
 			</div>
-			{/* <div className="h-0.5 w-full bg-linear-to-r from-transparent via-emerald-400 to-transparent"></div> */}
+			<div className="h-0.5 w-full bg-linear-to-r from-transparent via-emerald-400 to-transparent"></div>
 		</nav>
 	);
 };

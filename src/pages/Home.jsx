@@ -5,9 +5,14 @@ import StrategiesSideBar from "../components/StrategiesSideBar";
 const Home = () => {
 
   return (
-    <div className="flex relative w-full min-h-full h-auto">
-      <StrategiesSideBar />
-      <InfoLayout />
+    <div className="flex max-sm:block relative w-full min-h-screen h-auto">
+      <div className="sm:w-full md:w-[30%] h-full max-sm:relative md:fixed">
+        <StrategiesSideBar />
+      </div>
+      <div className="sm:w-full md:w-[30%] h-full max-sm:hidden"></div>
+      <div className="sm:w-full md:w-[70%] h-full flex">
+        <InfoLayout />
+      </div>
     </div>
   );
 };
