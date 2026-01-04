@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import InfoCard from "../components/InfoCards";
+import InfoCard from "../components/InfoCard";
 
 function InfoLayout() {
 	const [current, currentUpdater] = useState({});
