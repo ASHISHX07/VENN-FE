@@ -1,10 +1,10 @@
 import React from "react";
 
-const InfoCard = ( {innerContent} ) => {
+const InfoCard = ( {children} ) => {
 	return (
 		<div className="info-card-outer">
 			<div className="info-card-middle">
-				{innerContent}
+				{children}
 			</div>
 		</div>
 	);

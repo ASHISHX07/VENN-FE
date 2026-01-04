@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    user-select: none;
 }
 
 body::-webkit-scrollbar {
@@ -16,10 +17,20 @@ body::-webkit-scrollbar {
         @apply flex relative justify-center items-center-safe p-2 max-w-full w-auto h-auto box-border;
     }
     .info-card-middle {
-        @apply relative flex-col box-border p-1 px-1.5 w-full h-50 justify-center items-center bg-linear-to-tl from-transparent via-gray-100 to-emerald-100 dark:via-gray-900 dark:to-emerald-900 shadow-emerald-700 dark:shadow-emerald-300 shadow-lg/10 rounded-lg transition-colors duration-300;
+        @apply relative flex-col box-border p-1 px-1.5 w-full h-auto justify-center items-center bg-linear-to-tl from-transparent via-gray-100 to-emerald-100 dark:via-gray-900 dark:to-emerald-900 shadow-emerald-700 dark:shadow-emerald-300 shadow-lg/10 rounded-lg transition-colors duration-300;
     }
     .info-card-inner {
         @apply relative align-top text-gray-600 dark:text-gray-300 text-shadow-gray-300/80 dark:text-shadow-gray-900/80 text-shadow-md max-sm:text-sm md:text-lg lg:text-xl transition-all duration-300 border-b border-gray-500;
+    }
+    .info-card-key {
+        @apply flex w-full h-fit text-sm text-gray-600 dark:text-gray-300 text-shadow-gray-300/80 dark:text-shadow-gray-900/80 text-shadow-md transition-all duration-300;
+    }
+    .info-card-value {
+        @apply flex w-full h-fit text-sm relative justify-end text-gray-600 dark:text-gray-300 text-shadow-gray-300/80 dark:text-shadow-gray-900/80 text-shadow-md transition-all duration-300;
+    }
+
+    .week-mapper {
+        @apply flex relative justify-center dark:text-gray-950 text-gray-50 w-4 h-3 text-[10px] text-center box-border bg-gray-500 rounded transition-all duration-300;
     }
 }
 

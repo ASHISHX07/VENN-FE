@@ -1,6 +1,7 @@
 import React from "react";
 import InfoLayout from "../layouts/InfoLayout";
 import StrategiesSideBar from "../components/StrategiesSideBar";
+import Analysis from "../components/Analysis";
 
 const Home = () => {
 
@@ -10,8 +11,9 @@ const Home = () => {
         <StrategiesSideBar />
       </div>
       <div className="sm:w-full md:w-[30%] h-full max-sm:hidden"></div>
-      <div className="sm:w-full md:w-[70%] h-full flex">
+      <div className="relative sm:w-full md:w-[70%] h-full flex flex-col">
         <InfoLayout />
+        <Analysis />
       </div>
     </div>
   );
