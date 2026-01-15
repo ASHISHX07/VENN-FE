@@ -15,7 +15,63 @@ const StrategiesSideBar = () => {
           </tr>
         </thead>
         <tbody className='flex flex-col w-full h-full relative top-0 p-2 overflow-x-auto scrollbar-hide [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden text-gray-600 dark:text-gray-300 transition-all duration-300'>
-          <tr className='flex w-full h-fit py-0.5 border-b border-gray-500/50 shrink-0 hover:bg-black/5 hover:dark:bg-white/5 transition-all'>
+          <tr className='flex w-full h-fit py-1 border-b border-gray-500/50 shrink-0 hover:bg-black/5 hover:dark:bg-white/5 transition-all'>
+            <td className='w-[60%] px-2 wrap-break-word'>
+              customized friday short strangle
+            </td>
+            <td className='w-[40%] px-2'>
+              <div className='flex relative w-full h-full justify-center items-center max-sm:gap-2 md:gap-4 lg:gap-6'>
+                <div className='week-mapper'>M</div>
+                <div className='week-mapper'>T</div>
+                <div className='week-mapper'>W</div>
+                <div className='week-mapper'>T</div>
+                <div className='week-mapper'>F</div>
+              </div>
+            </td>
+          </tr>
+          <tr className='flex w-full h-fit py-1 border-b border-gray-500/50 shrink-0 hover:bg-black/5 hover:dark:bg-white/5 transition-all'>
+            <td className='w-[60%] px-2 wrap-break-word'>
+              customized friday short strangle
+            </td>
+            <td className='w-[40%] px-2'>
+              <div className='flex relative w-full h-full justify-center items-center max-sm:gap-2 md:gap-4 lg:gap-6'>
+                <div className='week-mapper'>M</div>
+                <div className='week-mapper'>T</div>
+                <div className='week-mapper'>W</div>
+                <div className='week-mapper'>T</div>
+                <div className='week-mapper'>F</div>
+              </div>
+            </td>
+          </tr>
+          <tr className='flex w-full h-fit py-1 border-b border-gray-500/50 shrink-0 hover:bg-black/5 hover:dark:bg-white/5 transition-all'>
+            <td className='w-[60%] px-2 wrap-break-word'>
+              customized friday short strangle
+            </td>
+            <td className='w-[40%] px-2'>
+              <div className='flex relative w-full h-full justify-center items-center max-sm:gap-2 md:gap-4 lg:gap-6'>
+                <div className='week-mapper'>M</div>
+                <div className='week-mapper'>T</div>
+                <div className='week-mapper'>W</div>
+                <div className='week-mapper'>T</div>
+                <div className='week-mapper'>F</div>
+              </div>
+            </td>
+          </tr>
+          <tr className='flex w-full h-fit py-1 border-b border-gray-500/50 shrink-0 hover:bg-black/5 hover:dark:bg-white/5 transition-all'>
+            <td className='w-[60%] px-2 wrap-break-word'>
+              customized friday short strangle
+            </td>
+            <td className='w-[40%] px-2'>
+              <div className='flex relative w-full h-full justify-center items-center max-sm:gap-2 md:gap-4 lg:gap-6'>
+                <div className='week-mapper'>M</div>
+                <div className='week-mapper'>T</div>
+                <div className='week-mapper'>W</div>
+                <div className='week-mapper'>T</div>
+                <div className='week-mapper'>F</div>
+              </div>
+            </td>
+          </tr>
+          <tr className='flex w-full h-fit py-1 border-b border-gray-500/50 shrink-0 hover:bg-black/5 hover:dark:bg-white/5 transition-all'>
             <td className='w-[60%] px-2 wrap-break-word'>
               customized friday short strangle
             </td>

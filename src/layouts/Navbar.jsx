@@ -7,7 +7,7 @@ export const Navbar = () => {
 	return (
 		<nav
 			className="min-w-full h-10 mb-1 items-center flex flex-col sticky top-0 z-50
-			backdrop-blur-lg bg-[rgba(0,0,0,0.1)] dark:bg-[rgba(255,255,255,0.1)] transition-all duration-300"
+			backdrop-blur-xl bg-[rgba(0,0,0,0.1)] dark:bg-[rgba(255,255,255,0.1)] transition-all duration-300"
 		>
 			<div className="relative min-w-full items-center flex h-full justify-between">
 				<div className="w-[20%] h-full items-center flex text-gray-900 dark:text-gray-100">
