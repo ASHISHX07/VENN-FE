@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
         @apply flex relative justify-center items-center-safe p-2 max-w-full w-auto h-auto box-border;
     }
     .info-card-middle {
-        @apply relative flex-col box-border p-1 px-1.5 w-full h-auto justify-center items-center bg-linear-to-tl from-transparent via-gray-100 to-emerald-100 dark:via-gray-900 dark:to-emerald-900 shadow-emerald-700 dark:shadow-emerald-300 shadow-lg/20
+        @apply relative flex-col box-border p-1 px-1.5 w-full h-auto justify-center items-center bg-linear-to-tl from-transparent via-gray-100 to-emerald-100 dark:via-gray-900 dark:to-emerald-900 shadow-emerald-700 dark:shadow-emerald-300 shadow-lg/30 dark:shadow-lg/8
          rounded-lg transition-colors duration-300;
     }
     .info-card-inner {
